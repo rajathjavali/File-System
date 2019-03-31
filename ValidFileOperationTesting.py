@@ -2,7 +2,7 @@ import FileSystem
 import EntityType
 
 
-# Unit Tests
+# Test Cases
 def create_list_of_drives():
     print("\n\n~~~~~~~~~~~Testing: Creating Drives~~~~~~~~~\n\n")
     print("Creating List of Drives")
@@ -169,7 +169,6 @@ def move_folder():
     file_system.ls("F\\folder1")
     print("Calling `ls` on drive C")
     file_system.ls("C")
-
 
 
 def main():
